@@ -1,0 +1,10 @@
+body
+{
+background-color: #AA6939;
+}
+
+.card_holder
+{
+    display: flex;
+    flex-wrap: wrap;   
+}

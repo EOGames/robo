@@ -1,0 +1,37 @@
+
+
+   
+.card_bg
+{
+    background-color: #7a461f;
+    box-shadow: 2px 2px 20px #D4976A,-2px -2px 20px #D4976A;
+    border-radius: 5%;
+    border: 2px solid #D4976A;
+    outline: 12px solid  #552400;
+    border-width: 12px;
+    width: 40vh;
+    height: 40vh;
+    margin: 20px;
+}
+
+.card_bg:hover
+{
+    transform: scale(1.2,1.2);
+    outline: 12px solid  #f1c4a3;
+   /* animation: CardAnim 1s ease-in-out; */
+}
+
+@keyframes CardAnim {
+    from{
+        position:absolute;
+    }
+
+    to
+    {
+        position: relative;
+    }
+}
+.center
+{
+    text-align: center;
+}
